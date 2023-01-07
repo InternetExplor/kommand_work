@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<style>
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+ }
+ body{
+    width: 100%;
+    height: 100vh;
+ }
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(70, 36, 102);
+ }
+ ul{
+    display: flex;
+ }
+ li{
+    list-style: none;
+    margin-right: 50px;
+ }
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    color: azure;
+    font-size: 50px;
+    margin-left: 30px;
+}
+.main{
+    width: 100%;
+    height: 800px;
+    background-color: aqua;
+    display: flex;
+ 
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    width: 40%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.548);
+     border-radius: 15px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+}
+</style>
+
+<body>
+    <header>
+        <div class="logo"><h1>LOGO</h1></div>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="tel.html">Tel</a></li>
+        </ul>
+    </header>
+    <div class="main">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <footer></footer>
+</body>
+</html>
